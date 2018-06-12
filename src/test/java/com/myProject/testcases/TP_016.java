@@ -23,7 +23,7 @@ import com.myProject.utilities.SignIn;
 public class TP_016 {
 	@Test
 	public void TC016() throws InterruptedException, IOException{
-		System.setProperty("webdriver.gecko.driver","./src\\twoPLUGS\\test\\resources\\geckodriver.exe"); 
+		System.setProperty("webdriver.gecko.driver","/usr/local/bin/geckodriver"); 
 		  WebDriver driver = new FirefoxDriver();
 		  driver.get(Constant.url);
 		  SignIn.Execute(driver, Constant.Username, Constant.Password); 

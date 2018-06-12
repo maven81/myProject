@@ -4,7 +4,7 @@
   
    <test name="TP">
       <classes>
-         <class name="com.myProject.testcases.TP_001"/>
+         <class name="com.myProject.testcases.TP_006"/>
          </classes>
    </test>
    </suite>

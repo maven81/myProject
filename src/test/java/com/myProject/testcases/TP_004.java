@@ -14,7 +14,7 @@ import com.myProject.pageobjects.SignInPage;
 public class TP_004 {
 	@Test
 	public void InValidUser() {
-		System.setProperty("webdriver.gecko.driver","./src\\twoPLUGS\\test\\resources\\geckodriver.exe"); 
+		System.setProperty("webdriver.gecko.driver","/usr/local/bin/geckodriver"); 
 		  WebDriver driver = new FirefoxDriver();
 		  driver.get(Constant.url);
 		  SignInPage login=new SignInPage(driver);

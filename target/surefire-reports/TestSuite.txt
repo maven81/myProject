@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.709 s - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.334 s <<< FAILURE! - in TestSuite
+TC006(com.myProject.testcases.TP_006)  Time elapsed: 0.359 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/harcharansingh/eclipse-workspace/myProject/./src\twoPLUGS\test\resources\geckodriver.exe
+	at com.myProject.testcases.TP_006.TC006(TP_006.java:20)
+

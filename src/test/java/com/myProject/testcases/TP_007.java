@@ -25,7 +25,7 @@ public class TP_007 {
 	@Test
 	public void TC007() throws InterruptedException {
 		
-		System.setProperty("webdriver.gecko.driver","./src\\twoPLUGS\\test\\resources\\geckodriver.exe"); 
+		System.setProperty("webdriver.gecko.driver","/usr/local/bin/geckodriver"); 
 		  WebDriver driver = new FirefoxDriver();
 		  driver.get(Constant.url);
 		  driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);

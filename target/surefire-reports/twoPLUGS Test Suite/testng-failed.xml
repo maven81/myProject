@@ -3,11 +3,11 @@
 <suite thread-count="-1" name="Failed suite [twoPLUGS Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test name="TP(failed)" verbose="0">
     <classes>
-      <class name="com.myProject.testcases.TP_001">
+      <class name="com.myProject.testcases.TP_006">
         <methods>
-          <include name="TC_001"/>
+          <include name="TC006"/>
         </methods>
-      </class> <!-- com.myProject.testcases.TP_001 -->
+      </class> <!-- com.myProject.testcases.TP_006 -->
     </classes>
   </test> <!-- TP(failed) -->
 </suite> <!-- Failed suite [twoPLUGS Test Suite] -->

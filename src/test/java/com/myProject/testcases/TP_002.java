@@ -13,7 +13,7 @@ import com.myProject.pageobjects.SignUpPage;
 public class TP_002 {
 	@Test
 	public void TC002() {
-		System.setProperty("webdriver.gecko.driver","./src\\twoPLUGS\\test\\resources\\geckodriver.exe"); 
+		System.setProperty("webdriver.gecko.driver","/usr/local/bin/geckodriver"); 
 		  WebDriver driver = new FirefoxDriver();
 		  driver.get(Constant.url);
 		  SignInPage login=new SignInPage(driver);

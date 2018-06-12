@@ -20,7 +20,7 @@ public class TP_017 {
 	@Test 
 	public void TC017() throws InterruptedException
 		{
-		System.setProperty("webdriver.gecko.driver","./src\\twoPLUGS\\test\\resources\\geckodriver.exe"); 
+		System.setProperty("webdriver.gecko.driver","/usr/local/bin/geckodriver"); 
 		  WebDriver driver = new FirefoxDriver();
 		  driver.get(Constant.url);
 		  SignIn.Execute(driver, Constant.Username, Constant.Password); 

@@ -15,7 +15,7 @@ public class TP_013 {
 	@Test 
 	public void TC013()
 		{
-		System.setProperty("webdriver.gecko.driver","./src\\twoPLUGS\\test\\resources\\geckodriver.exe"); 
+		System.setProperty("webdriver.gecko.driver","/usr/local/bin/geckodriver"); 
 		  WebDriver driver = new FirefoxDriver();
 		  driver.get(Constant.url);
 		  SignIn.Execute(driver, Constant.Username, Constant.Password); 

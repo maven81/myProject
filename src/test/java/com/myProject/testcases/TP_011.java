@@ -22,7 +22,7 @@ public class TP_011 {
 	@Test
 	public void TC011() throws InterruptedException {
 		
-			System.setProperty("webdriver.gecko.driver","./src\\twoPLUGS\\test\\resources\\geckodriver.exe"); 
+			System.setProperty("webdriver.gecko.driver","/usr/local/bin/geckodriver"); 
 			WebDriver driver = new FirefoxDriver();
 			  driver.get(Constant.url);
 			  //driver.get(Constant.url);

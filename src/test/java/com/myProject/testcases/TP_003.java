@@ -13,7 +13,7 @@ import com.myProject.utilities.SignIn;
 public class TP_003 {
 	@Test
 	public void Validemail() {
-		System.setProperty("webdriver.gecko.driver","./src\\twoPLUGS\\test\\resources\\geckodriver.exe"); 
+		System.setProperty("webdriver.gecko.driver","/usr/local/bin/geckodriver"); 
 		  WebDriver driver = new FirefoxDriver();
 		  driver.get(Constant.url);
 		  SignInPage login=new SignInPage(driver);
