@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="twoPLUGS Test Suite">
+  
+   <test name="TP">
+      <classes>
+         <class name="com.myProject.testcases.TP_001"/>
+         </classes>
+   </test>
+   </suite>
