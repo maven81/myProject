@@ -4,7 +4,24 @@
   
    <test name="TP">
       <classes>
+         <class name="com.myProject.testcases.TP_001"/>
+         <class name="com.myProject.testcases.TP_002"/>
+         <class name="com.myProject.testcases.TP_003"/>
+         <class name="com.myProject.testcases.TP_004"/>
+         <class name="com.myProject.testcases.TP_005"/>
          <class name="com.myProject.testcases.TP_006"/>
+         <class name="com.myProject.testcases.TP_007"/>
+         <class name="com.myProject.testcases.TP_008"/>
+         <class name="com.myProject.testcases.TP_009"/>
+         <class name="com.myProject.testcases.TP_010"/>
+         <class name="com.myProject.testcases.TP_011"/>
+         <class name="com.myProject.testcases.TP_012"/>
+         <class name="com.myProject.testcases.TP_013"/>
+         <class name="com.myProject.testcases.TP_014"/>
+         <class name="com.myProject.testcases.TP_015"/>
+         <class name="com.myProject.testcases.TP_016"/>
+         <class name="com.myProject.testcases.TP_017"/>
+         <class name="com.myProject.testcases.TP_018"/>
          </classes>
    </test>
    </suite>
